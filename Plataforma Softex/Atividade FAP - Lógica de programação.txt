@@ -1,0 +1,53 @@
+Fabio Ura
+FAP – Atividade “Lógica de programação”
+
+Irei detalhar passo a passo a minha linha de raciocinio:
+
+{
+Aristóteles, Sócrates e Platão estavam disputando uma competição de perguntas nas disciplinas de Física, Matemática e Química. Cada um obteve um primeiro lugar, um segundo lugar e um terceiro lugar.
+
+Sabendo que: 
+- Aristóteles não ficou em primeiro em Química; 
+- Sócrates perdeu para Platão em Física; 
+- Platão acertou mais que Aristóteles em Matemática.
+
+Informe quem ficou em 1º, 2º e 3º lugar em cada disciplina.
+}
+
+Conforme o que foi dado na questão, afirmo que:
+
+• O 1º lugar de Química é de Sócrates ou Platão
+• Sócrates pode estar em 2º ou 3º em Física
+• Platão pode estar em 1º ou 2º em Física
+• Platão pode estar em 1º ou 2º em Matemática
+• Aristóteles pode estar em 2º ou 3º em Matemática
+
+A partir destas análises inciais também consigo afirmar que:
+
+• Aristóteles só pode ter ficado em 1º lugar em Física, levando em conta as análises anteriores e que cada um deve ter obtido 1 primeiro lugar, 1 segundo lugar e 1 terceiro lugar.
+• Platão ficou em 2º segundo em Física, pois ele poderia ocupar apneas o 1º e o 2º lugar, e o 1º lugar já foi ocupado por Aristóteles.
+• Consequentemente Sócrates ficou com o 3º lugar de Física.
+• Como Platão já obteu o 2º lugar em Física, ele não pode obter a mesma colocação em outra matéria, levando a afrimação de que ele só poderá estar na 1º colocação em Matemática.
+• Seguindo a mesma lógica, Platão só poderá estar em 3º lugar em Química.
+• Como o 1º lugar de Química só poderia ser de Platão ou Sócrates, então Sócrates ficou com a 1º colocação em Química.
+• Sobrando novamente apenas o 2º lugar de Química para Aristóteles
+• Seguindo a mesma lógica de a mesma pessoa não poder ter a mesma colocação em matérias deferentes,  Aristóteles só pode ter ficado o 3º lugar de Matemática.
+• E sobrando apenas o 2º lugar de Matemática para Sócrates.
+
+RESPOSTA FINAL:
+
+- FÍSICA:
+1º Aristóteles
+2º Platão
+3º Sócrates
+
+- MATEMÁTICA: 
+1º Platão
+2º Sócrates
+3º Aristóteles
+
+- QUÍMICA: 
+1º Sócrates
+2º Aristóteles
+3º Platão
+
