@@ -1,0 +1,22 @@
+- Deve-se criar 4 variáveis para guardar valores do tipo caractere e uma variável para guardar valor do tipo real. As variáveis devem ter nome que facilite a identificação do conteúdo guardado, neste caso podemos nomea-las como "nome", "cpf", "rg", "altura" e "endereco". Em seguida devemos pedir para o usuário digitar as informações que cada variável deverá armazenar e atribui-las respectivamente.
+
+EXEMPLOS:
+
+Pseudo-código:
+	variavel(caracter): nome, cpf, rg, endereco;
+	variavel(real): altura;
+	
+
+	Leia nome;
+	Leia cpf;
+	Leia rg;
+	Leia altura;
+	Leia endereco;
+
+JavaScript:
+	let nome = prompt("Digite seu nome: ")
+	let cpf = prompt("Digite seu CPF: ")
+	let rg = prompt("Digite seu RG: ")
+	let altura = Number(prompt("Digite sua altura: "))
+	let endereco = prompt("Digite seu endereco: ")
+	
