@@ -1,13 +1,13 @@
-Observando a questão acredito que a mesma possui várias linhas de raciocinio que levam à resposta esperada.
+Observando a questão acredito que a mesma possui várias linhas de raciocínio que levam à resposta esperada.
 
 Uma das linhas que desenvolvi é:
-- Como não podemos contar com a possibilidade do professor de lembrar a posição dos alunos, a única forma dele perceber a troca seria se ele seguisse um padrão para a ordenação dos alunos na sala, alguma regra que ele ja saiba.
+- Como não podemos contar com a possibilidade do professor de lembrar a posição dos alunos, a única forma dele perceber a troca seria se ele seguisse um padrão para a ordenação dos alunos na sala, alguma regra que ele já saiba.
 - Pensando nisso, cheguei à conclusão de que a ilustração 1 não tem relevância para a resolução desta questão, pois com o aumento de alunos que aconteceu da figura 1 à figura 2, também mudaria o padrão e a regra seguida para a ordenação dos alunos.
 - Diante disso, percebo uma lógica obedecida na ilustração 2, um conjunto de duas regras que formam o padrão:
 
 	REGRA 1:
-	* Originalmente é uma matriz 6x6, então diminui ela para uma matriz 3x3, sendo cada célula da 	nova matriz 3x3 um conjunto de 4 células da antiga matriz 6x6.
-	* A partir disto, aplica-se uma regra que se assemelha a um jogo de sudoku, onde em cada linha e 	em cada coluna deve ter apenas uma célula que contenha 3 P e 1 M, uma célula que contenha 1 P e 	3 M e uma célula que contenha 2 P e 2 M.
+	* Originalmente temos uma matriz 6x6, então a reduzimos para uma matriz 3x3, sendo cada célula da nova matriz 3x3 um conjunto de 4 células da antiga matriz 6x6.
+	* A partir disto, aplica-se uma regra que se assemelha a um jogo de Sudoku, onde em cada linha e em cada coluna deve ter apenas uma célula que contenha 3 P e 1 M, uma célula que contenha 1 P e 3 M e uma célula que contenha 2 P e 2 M.
 		
 	VISUALMENTE:
 
@@ -30,4 +30,4 @@ Uma das linhas que desenvolvi é:
 	- Levando isto em consideração, percebe-se que a ilustração 3 não obedece estas regras, e que a única forma de "arrumar" seria trocando o aluno que está na 4ª linha, 3ª coluna com o aluno que está na 5ª linha, 5ª coluna.
 	
 	CONCLUSÃO:
-	- Usando as duas regras em conjunto é possível indetificar a disciplina de cada aluno, além de identificar em quais cadeiras houve a troca
+	- Usando as duas regras em conjunto é possível identificar a disciplina de cada aluno, além de identificar em quais cadeiras houve a troca.
