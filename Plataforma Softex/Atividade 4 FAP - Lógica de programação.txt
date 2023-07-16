@@ -1,0 +1,80 @@
+Portugol:
+
+	Var
+   	nome: caractere
+   	endereco: caractere
+   	cidade: caractere
+   	cpf: caractere
+   	rg: caractere
+   	idade: inteiro
+   	nomePai: caractere
+   	nomeMae: caractere
+   	peso: real
+   	rendaBruta: real
+
+	Inicio
+	Escreva("---CADASTRO---")
+   	Escreva("Digite seu nome: ")
+   	Leia(nome)
+   	Escreva("Digite seu endereço: ")
+   	Leia(endereco)
+   	Escreva("Digite sua cidade: ")
+   	Leia(cidade)
+   	Escreva("Digite seu CPF: ")
+   	Leia(cpf)
+   	Escreva("Digite seu RG: ")
+   	Leia(rg)
+   	Escreva("Digite sua idade: ")
+   	Leia(idade)
+   	Escreva("Digite o nome do seu pai: ")
+   	Leia(nomePai)
+   	Escreva("Digite o nome da sua mãe: ")
+   	Leia(nomeMae)
+   	Escreva("Digite seu peso: ")
+   	Leia(peso)
+   	Escreva("Digite sua renda bruta: ")
+   	Leia(rendaBruta)
+	
+   	Escreva("------------------------")
+   	Escreva("Cadastro realizado com sucesso!")
+   	Escreva("Nome: ", nome)
+   	Escreva("Endereço: ", endereco)
+   	Escreva("Cidade: ", cidade)
+   	Escreva("CPF: ", cpf)
+   	Escreva("RG: ", rg)
+   	Escreva("Idade: ", idade, " anos")
+   	Escreva("Nome do pai: ", nomePai)
+   	Escreva("Nome da mãe: ", nomeMae)
+   	Escreva("Peso: ", peso, " kg")
+   	Escreva("Renda bruta: R$", rendaBruta)
+	
+	fimalgoritmo
+
+
+
+Javascript:
+
+	let nome = prompt("Digite seu nome: ");
+	let endereco = prompt("Digite seu endereço: ");
+	let cidade = prompt("Digite sua cidade: ");
+	let cpf = prompt("Digite seu CPF: ");
+	let rg = prompt("Digite seu RG: ");
+	let idade = parseInt(prompt("Digite sua idade: "));
+	let nomePai = prompt("Digite o nome do seu pai: ");
+	let nomeMae = prompt("Digite o nome da sua mãe: ");
+	let peso = parseFloat(prompt("Digite seu peso: "));
+	let rendaBruta = parseFloat(prompt("Digite sua renda bruta: "));
+
+	console.log("----- Cadastro -----");
+	console.log("Cadastro realizado com sucesso!");
+	console.log("Nome: " + nome);
+	console.log("Endereço: " + endereco);
+	console.log("Cidade: " + cidade);
+	console.log("CPF: " + cpf);
+	console.log("RG: " + rg);
+	console.log("Idade: " + idade + " anos");
+	console.log("Nome do pai: " + nomePai);
+	console.log("Nome da mãe: " + nomeMae);
+	console.log("Peso: " + peso + " kg");
+	console.log("Renda bruta: R$ " + rendaBruta);
+
