@@ -12,31 +12,31 @@ Pseudo-código:
 
 	   Se (terrestre = "Sim") Entao
 	      capacete <- Leia("Usa capacete? (Sim/Não): ")
-	
+
 	      Se (capacete = "Sim") Entao
 	         Escreva("O transporte escolhido foi MOTO.")
 	      Senao
 	         umaPessoa <- Leia("Cabe apenas uma pessoa? (Sim/Não): ")
-	
+
 	         Se (umaPessoa = "Sim") Entao
 	            ePesado <- Leia("É pesado? (Sim/Não): ")
-	
+
 	            Se (ePesado = "Sim") Entao
 	               Escreva("O transporte escolhido foi TRATOR.")
 	            Senao
 	               temPedal <- Leia("Tem pedal? (Sim/Não): ")
-	
+
 	               Se (temPedal = "Sim") Entao
 	                  Escreva("O transporte escolhido foi BICICLETA.")
 	               Senao
 	                  Escreva("Nenhum transporte escolhido.")
 	               FimSe
-	
+
 	            FimSe
 	         Senao
 	            Escreva("Nenhum transporte escolhido.")
 	         FimSe
-	
+
 	      FimSe
 	   Senao
 	      Escreva("Nenhum transporte escolhido.")
@@ -49,7 +49,7 @@ Pseudo-código:
 
 JavaScript:
 	let terrestre = prompt('É terrestre?: ')
-	
+
 	if(terrestre == 'Sim'){
 	   let capacete = prompt('Usa capacete?: ')
 	   if (capacete == 'Sim'){
