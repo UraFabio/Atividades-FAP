@@ -1,0 +1,29 @@
+Pseudo-código:
+
+	Var
+	   numero: inteiro
+	   i, resultado: inteiro
+
+	Inicio
+	   Escreva("Digite um número inteiro para obter a tabuada:")
+	   Leia(numero)
+
+	   i <- 1
+	   Enquanto (i <= 10) Faca
+	      resultado <- numero * i
+	      Escreva(numero, " x ", i, " = ", resultado)
+	      i <- i + 1
+	   FimEnquanto
+	
+	fimalgoritmo
+
+
+
+
+Javascript:
+	let numero = Number(prompt("Digite um número: "))
+
+	console.log("-----TABUADA-----")
+	for(let i = 1; i <= 10; i += 1){
+    	   console.log(numero+"x"+i+"="+numero*i)
+	}
