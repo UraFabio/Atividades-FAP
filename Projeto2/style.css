@@ -2,23 +2,49 @@
     text-align: center;
     
 }
-button{
-    width: 100px;
-    height: 50px;
+.custom-button{
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Adicionando sombra */ 
+    transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
+.custom-button:hover {
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2); /* Efeito de sombra mais forte no hover */
+  }
+.custom-button:active {
+    box-shadow: none; /* Removendo a sombra ao pressionar o botão */
+    transform: translateY(2px); /* Efeito de "afundar" o botão ao pressionar */
+  }
+
 
 body{
     background-color: bisque;
 }
-table{
-    width: 100%;
-    margin-bottom: .5em;
-    table-layout: fixed;
-    text-align: center;
 
-    
-}
+
 td, th{
     padding: .7em;
     text-align: center;
+}
+th{
+    background-color: #a89e07;
+}
+td{
+    background-color: rgba(243, 245, 128, 0.829);
+}
+
+#tabela{
+    width:min-content;
+    margin: 0 auto; /* Adicionar margens automáticas para centralizar */
+    table-layout: fixed;
+    text-align: center;
+    margin-top: 25px;
+
 }
