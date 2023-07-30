@@ -37,7 +37,7 @@ while(True):
             print("----------------------------------\n")
     if(ano_nascimento < 1922 or ano_nascimento > 2022):
         print("----------------------------------")
-        print("\nINFORME UM ANO VÁLIDO (entre 1922 e 2021), DIGITE NOVAMENTE:\n")
+        print("\nINFORME UM ANO VÁLIDO (entre 1922 e 2022), DIGITE NOVAMENTE:\n")
         print("----------------------------------")
         continue
     break
