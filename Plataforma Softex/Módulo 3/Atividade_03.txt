@@ -1,0 +1,13 @@
+Considere o array [3, 7, 9, 1, 0].
+
+O primeiro elemento inserido foi o 3, o segundo foi o 7 e assim por diante, seguindo a ordem.
+
+Levando em conta as três estruturas de dados (fila, lista e pilha) e as suas regras de operações, qual seria a sequência dos números removidos em cada uma delas para esvaziá-las completamente utilizando o array mencionado?
+
+////////
+
+- FILA: Na fila, a ordem de remoção dos elementos deve ser [3 -> 7 -> 9 -> 1 -> 0], pois na fila se aplica a regra FIFO, na qual o primeiro elemento inserido também será o primeiro a ser removidos
+
+- LISTA: Na lista não existe uma regra de como em filas e pilhas, por isso a ordem de remoção pode ser aleatoria, ou seja, a critério de quem estiver utilizando
+
+- PILHA: Na pilha, a ordem de remoção dos elemntos deve ser [0 -> 1 -> 9 -> 7 -> 3], pois na pilha se aplica a regra LIFO, na qual o último elemento a ser inserido será o primero a ser removido
