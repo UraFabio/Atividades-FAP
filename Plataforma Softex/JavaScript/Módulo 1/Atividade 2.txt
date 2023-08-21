@@ -1,0 +1,1 @@
+Eu escolhi o VSCode pois além de ser um software conhecido, bonito e de fácil uso, é um ambiente ao qual já estou familiarizado e ja tehdo tudo configurando para programar em JS nele.
