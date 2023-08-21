@@ -1,0 +1,6 @@
+A cada nova versão do ECMAScript trazia novos recursos, sintaxe aprimorada e funcionalidades mais poderosas.
+As versões mais recentes do ECMAScript introduziu recursos com 'async/await', que simplificaram a programção assíncrona.
+Introdução de arrows functions
+Melhor manipulação de strings
+Melhores métodos de iteração, como o forEach, map e filter
+Além é claro de uma melhora na performance e padronização do código
