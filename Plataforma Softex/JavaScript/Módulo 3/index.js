@@ -1,6 +1,3 @@
-/*Deve ser executado no programiz*/
-
-const prompt = require("prompt-sync")();
 
 console.log("<<<<TABELA DE OPERAÇÕES>>>>>")
 console.log(" + para soma")
@@ -11,9 +8,9 @@ console.log("---------------------------------")
 
 console.log("Digite primeiro o primeiro valor da operação, depois o símbolo da operação e em seguida o segundo valor da operação")
 
-let n1 = Number(prompt(">>"))
-let op = prompt(">>")
-let n2 = Number(prompt(">>"))
+let n1 = 5;
+let op = '+';
+let n2 = 9;
 
 switch(op){
     case "+":
